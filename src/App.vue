@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <JsonUploader/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import JsonUploader from './components/json-uploader.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    JsonUploader
   }
 }
 </script>
